@@ -1,0 +1,23 @@
+Score value from the quiz
+
+Rate yourself - Beginner/Intermediate/Advanced
+
+Would you like to start Statistics from the scratch? - Yes/No
+
+
+
+
+
+
+
+
+
+AI
+DS
+Business Analytics
+ML
+
+
+
+
+

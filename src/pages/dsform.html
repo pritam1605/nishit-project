@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DS Quiz</title>
+    <link rel="stylesheet" href="aiform.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2>Data Science Quiz</h2>
+    <p class="name"><b>Name: </b>{{user.name }}</p>
+    <div class="panel panel-understanding-check">
+        <form class="multipleChoice" method="POST" action="/dsquiz">
+            <div class="form-group">
+                <label for="radio">Which of the following is not a primary goal of data preprocessing in data science?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975480" name="question-67518975480" id="bsr-radios-97468235360" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2001">
+                        Data cleaning
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975480" name="question-67518975480" id="bsr-radios-97468235361" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2002">
+                        Data visualization
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975480" name="question-67518975480" id="bsr-radios-97468235362" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2003">
+                        Data integration
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975480" name="question-67518975480" id="bsr-radios-97468235363" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2004">
+                        Data transformation
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">In supervised learning, what do we call the output that we want to predict?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975481" name="question-67518975481" id="bsr-radios-97468235364" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2005">
+                        Outcome
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975481" name="question-67518975481" id="bsr-radios-97468235365" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2006">
+                        Label
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975481" name="question-67518975481" id="bsr-radios-97468235366" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2007">
+                        Feature
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975481" name="question-67518975481" id="bsr-radios-97468235367" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2008">
+                        Predictor
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which algorithm is commonly used for classification tasks and is known for its simplicity and
+                    interpretability?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975482" name="question-67518975482" id="bsr-radios-97468235368" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2009">
+                        K-Means
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975482" name="question-67518975482" id="bsr-radios-97468235369" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2010">
+                        Random Forest
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975482" name="question-67518975482" id="bsr-radios-97468235370" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2011">
+                        Support Vector Machine (SVM)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975482" name="question-67518975482" id="bsr-radios-97468235371" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2012">
+                        K-Nearest Neighbors (KNN)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the purpose of cross-validation in machine learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975483" name="question-67518975483" id="bsr-radios-97468235372" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2013">
+                        To prevent overfitting
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975483" name="question-67518975483" id="bsr-radios-97468235373" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2014">
+                        To increase model complexity
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975483" name="question-67518975483" id="bsr-radios-97468235374" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2015">
+                        To decrease model variance
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975483" name="question-67518975483" id="bsr-radios-97468235375" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2016">
+                        To decrease model bias
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">In natural language processing, what does TF-IDF stand for?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975484" name="question-67518975484" id="bsr-radios-97468235376" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2017">
+                        Term Frequency-Inverse Document Frequency
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975484" name="question-67518975484" id="bsr-radios-97468235377" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2018">
+                        Text Feature-Inclusion Determination Factor
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975484" name="question-67518975484" id="bsr-radios-97468235378" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2019">
+                        Total Frequency-Individual Document Filtering
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975484" name="question-67518975484" id="bsr-radios-97468235379" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2020">
+                        Term Fusion-Inverse Document Function
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which technique is used for dimensionality reduction and mapping high-dimensional data into a
+                    lower-dimensional space while preserving relative distances between points?
+                    </label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975485" name="question-67518975485" id="bsr-radios-97468235380" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2021">
+                        Principal Component Analysis (PCA)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975485" name="question-67518975485" id="bsr-radios-97468235381" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2022">
+                        Apriori Algorithm
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975485" name="question-67518975485" id="bsr-radios-97468235382" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2023">
+                        Singular Value Decomposition (SVD)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975485" name="question-67518975485" id="bsr-radios-97468235383" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2024">
+                        Gradient Boosting Machine (GBM)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the purpose of regularization techniques in machine learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975486" name="question-67518975486" id="bsr-radios-97468235384" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2025">
+                        To increase model bias
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975486" name="question-67518975486" id="bsr-radios-97468235385" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2026">
+                        To reduce model complexity
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975486" name="question-67518975486" id="bsr-radios-97468235386" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2027">
+                        To memorize training data
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975486" name="question-67518975486" id="bsr-radios-97468235387" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2028">
+                        To decrease model variance
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which of the following evaluation metrics is most suitable for imbalanced classification problems?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975487" name="question-67518975487" id="bsr-radios-97468235388" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2029">
+                        Accuracy
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975487" name="question-67518975487" id="bsr-radios-97468235389" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2030">
+                        Precision
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975487" name="question-67518975487" id="bsr-radios-97468235390" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2031">
+                        Recall
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975487" name="question-67518975487" id="bsr-radios-97468235391" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2032">
+                        F1-score
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the curse of dimensionality in machine learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975488" name="question-67518975488" id="bsr-radios-97468235392" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2033">
+                        When the number of features is too low, leading to poor model performance
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975488" name="question-67518975488" id="bsr-radios-97468235393" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2034">
+                        When the model becomes too complex, causing overfitting
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975488" name="question-67518975488" id="bsr-radios-97468235394" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2035">
+                        When the number of features is too high relative to the number of observations
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975488" name="question-67518975488" id="bsr-radios-974682352395" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2036">
+                        When the dataset is too large to fit into memory
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which of the following is NOT a common method for handling missing data?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975489" name="question-67518975489" id="bsr-radios-97468235396" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2037">
+                        Removing rows with missing values
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975489" name="question-67518975489" id="bsr-radios-97468235397" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2038">
+                        Filling missing values with mean or median
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975489" name="question-67518975489" id="bsr-radios-97468235398" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2039">
+                        Imputing missing values using k-nearest neighbors
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975489" name="question-67518975489" id="bsr-radios-97468235399" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2040">
+                        Creating a new category for missing values
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which algorithm is often used for anomaly detection and novelty detection, based on the
+                    assumption that normal data points occur in dense neighborhoods?
+                    </label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975490" name="question-67518975490" id="bsr-radios-97468235400" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2041">
+                        K-Means
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975490" name="question-67518975490" id="bsr-radios-97468235401" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2042">
+                        Isolation Forest
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975490" name="question-67518975490" id="bsr-radios-97468235402" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2043">
+                        Gradient Boosting Machine (GBM)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975490" name="question-67518975490" id="bsr-radios-97468235403" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2044">
+                        Decision Trees
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the purpose of the Adam optimization algorithm commonly used in training neural
+                    networks?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975491" name="question-67518975491" id="bsr-radios-97468235404" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2045">
+                        To prevent overfitting
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975491" name="question-67518975491" id="bsr-radios-97468235405" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2046">
+                        To minimize the loss function by adjusting model parameters
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975491" name="question-67518975491" id="bsr-radios-97468235406" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2047">
+                        To initialize the weights of the neural network
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975491" name="question-67518975491" id="bsr-radios-97468235407" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2048">
+                        To reduce computational cost during training
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which technique is used for feature selection in machine learning by recursively removing the
+                    least significant features until the desired number of features is reached?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975492" name="question-67518975492" id="bsr-radios-97468235408" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2049">
+                        Principal Component Analysis (PCA)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975492" name="question-67518975492" id="bsr-radios-97468235409" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2050">
+                        Sequential Feature Selection
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975492" name="question-67518975492" id="bsr-radios-97468235410" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2051">
+                        LASSO Regression
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975492" name="question-67518975492" id="bsr-radios-97468235411" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2052">
+                        Ridge Regression
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">In deep learning, what is the purpose of the activation function in a neural network?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975493" name="question-67518975493" id="bsr-radios-97468235412" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2053">
+                        To determine the learning rate
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975493" name="question-67518975493" id="bsr-radios-97468235413" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2054">
+                        To normalize input data
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975493" name="question-67518975493" id="bsr-radios-97468235414" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2055">
+                        To introduce non-linearity
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975493" name="question-67518975493" id="bsr-radios-97468235415" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2056">
+                        To initialize the weights of the network
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which statistical test is commonly used to determine if there is a significant association between
+                    two categorical variables?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975494" name="question-67518975494" id="bsr-radios-97468235416" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2057">
+                        t-test
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975494" name="question-67518975494" id="bsr-radios-97468235417" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2058">
+                        ANOVA
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975494" name="question-67518975494" id="bsr-radios-97468235418" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2059">
+                        Chi-square test
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="67518975494" name="question-67518975494" id="bsr-radios-97468235419" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio2060">
+                        Pearson correlation
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <div class="multiple-choice-alert alert hidden" id="87518975480" role="alert"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

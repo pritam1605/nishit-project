@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Quiz</title>
+    <link rel="stylesheet" href="aiform.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h2>Machine Learning Quiz</h2>
+    <p class="name"><b>Name: </b>{{user.name }}</p>
+    <div class="panel panel-understanding-check">
+        <form class="multipleChoice" method="POST" action="/mlquiz">
+            <div class="form-group">
+                <label for="radio">What is the main goal of supervised learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975480" name="question-77518975480" id="bsr-radios-97468235300" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1001">
+                        Minimize error between predictions and actual outputs
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975480" name="question-77518975480" id="bsr-radios-97468235301" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1002">
+                        Discover hidden patterns in data
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975480" name="question-77518975480" id="bsr-radios-97468235302" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1003">
+                        Optimize a function by adjusting parameters iteratively
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975480" name="question-77518975480" id="bsr-radios-97468235303" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1004">
+                        Learn from rewards and punishments
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the primary goal of symbolic AI?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975481" name="question-77518975481" id="bsr-radios-97468235304" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1005">
+                        K-means
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975481" name="question-77518975481" id="bsr-radios-97468235305" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1006">
+                        Decision trees
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975481" name="question-77518975481" id="bsr-radios-97468235306" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1007">
+                        Support Vector Machines (SVM)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975481" name="question-77518975481" id="bsr-radios-97468235307" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1008">
+                        Linear regression
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What type of learning does a decision tree algorithm belong to?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975482" name="question-77518975482" id="bsr-radios-97468235308" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1009">
+                        Supervised Learning
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975482" name="question-77518975482" id="bsr-radios-97468235309" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1010">
+                        Unsupervised Learning
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975482" name="question-77518975482" id="bsr-radios-97468235310" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1011">
+                        Reinforcement Learning
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975482" name="question-77518975482" id="bsr-radios-97468235311" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1012">
+                        Semi-supervised learning
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which technique is used to handle missing data in a dataset?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975483" name="question-77518975483" id="bsr-radios-97468235312" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1013">
+                        Mean imputation
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975483" name="question-77518975483" id="bsr-radios-97468235313" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1014">
+                        Median imputation
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975483" name="question-77518975483" id="bsr-radios-97468235314" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1015">
+                        Mode imputation
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975483" name="question-77518975483" id="bsr-radios-97468235315" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1016">
+                        All of the above
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which evaluation metric is suitable for imbalanced classification problems?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975484" name="question-77518975484" id="bsr-radios-97468235316" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1017">
+                        Accuracy
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975484" name="question-77518975484" id="bsr-radios-97468235317" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1018">
+                        Precision
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975484" name="question-77518975484" id="bsr-radios-97468235318" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1019">
+                        Recall
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975484" name="question-77518975484" id="bsr-radios-97468235319" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1020">
+                        F1-score
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What does the term "overfitting" refer to in machine learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975485" name="question-77518975485" id="bsr-radios-97468235320" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1021">
+                        Model is too simple to capture underlying patterns
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975485" name="question-77518975485" id="bsr-radios-97468235321" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1022">
+                        Model generalizes well to unseen data
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975485" name="question-77518975485" id="bsr-radios-97468235322" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1023">
+                        Model performs well on training data but poorly on test data
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975485" name="question-77518975485" id="bsr-radios-97468235323" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1024">
+                        None of the above
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">In which situation would you prefer using ensemble learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975486" name="question-77518975486" id="bsr-radios-97468235324" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1025">
+                        When interpretability is crucial
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975486" name="question-77518975486" id="bsr-radios-97468235325" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1026">
+                        When dealing with a small dataset
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975486" name="question-77518975486" id="bsr-radios-97468235326" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1027">
+                        When model complexity is not a concern
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975486" name="question-77518975486" id="bsr-radios-97468235327" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1028">
+                        When aiming for improved prediction accuracy
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the purpose of the activation function in a neural network?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975487" name="question-77518975487" id="bsr-radios-97468235328" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1029">
+                        To compute the loss function
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975487" name="question-77518975487" id="bsr-radios-97468235329" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1030">
+                        To introduce non-linearity into the model
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975487" name="question-77518975487" id="bsr-radios-97468235330" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1031">
+                        To optimize the learning rate
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975487" name="question-77518975487" id="bsr-radios-97468235331" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1032">
+                        To initialize the weights of the network
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which method is used to prevent overfitting in neural networks?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975488" name="question-77518975488" id="bsr-radios-97468235332" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1033">
+                        L1 regularization
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975488" name="question-77518975488" id="bsr-radios-97468235333" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1034">
+                        Dropout
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975488" name="question-77518975488" id="bsr-radios-97468235334" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1035">
+                        Batch normalization
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975488" name="question-77518975488" id="bsr-radios-97468235335" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1036">
+                        All of the above
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which algorithm is used for dimensionality reduction?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975489" name="question-77518975489" id="bsr-radios-97468235336" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1037">
+                        K-means clustering
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975489" name="question-77518975489" id="bsr-radios-97468235337" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1038">
+                        PCA (Principal Component Analysis)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975489" name="question-77518975489" id="bsr-radios-97468235338" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1039">
+                        Decision trees
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975489" name="question-77518975489" id="bsr-radios-97468235339" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1040">
+                        AdaBoost
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which of the following is an unsupervised learning algorithm?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975490" name="question-77518975490" id="bsr-radios-97468235340" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1041">
+                        Linear regression
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975490" name="question-77518975490" id="bsr-radios-97468235341" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1042">
+                        K-nearest neighbors (KNN)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975490" name="question-77518975490" id="bsr-radios-97468235342" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1043">
+                        K-means clustering
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975490" name="question-77518975490" id="bsr-radios-97468235343" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1044">
+                        Support Vector Machines (SVM)
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the key difference between precision and recall?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975491" name="question-77518975491" id="bsr-radios-97468235344" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1045">
+                        Precision measures the ability of a classifier to avoid classifying a negative sample as positive, while recall measures the ability of a classifier to correctly identify positive samples.
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975491" name="question-77518975491" id="bsr-radios-97468235345" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1046">
+                        Precision measures the ability of a classifier to correctly identify positive samples, while recall measures the ability of a classifier to avoid classifying a negative sample as positive.
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975491" name="question-77518975491" id="bsr-radios-97468235346" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1047">
+                        Precision is the ratio of true positives to true negatives, while recall is the ratio of true positives to false negatives.
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975491" name="question-77518975491" id="bsr-radios-97468235347" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1048">
+                        Precision is the ratio of true positives to the total number of predicted positives, while recall is the ratio of true positives to the total number of actual positives.
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which algorithm is used for both classification and regression tasks?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975492" name="question-77518975492" id="bsr-radios-97468235348" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1049">
+                        Random Forest
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975492" name="question-77518975492" id="bsr-radios-97468235349" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1050">
+                        Naive Bayes
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975492" name="question-77518975492" id="bsr-radios-97468235350" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1051">
+                        Decision Trees
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975492" name="question-77518975492" id="bsr-radios-97468235351" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1052">
+                        Logistic Regression
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">What is the main advantage of using a convolutional neural network (CNN) for image classification tasks?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975493" name="question-77518975493" id="bsr-radios-97468235352" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1053">
+                        CNNs are less computationally expensive compared to other neural network architectures.
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975493" name="question-77518975493" id="bsr-radios-97468235353" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1054">
+                        CNNs automatically extract relevant features from the input images
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975493" name="question-77518975493" id="bsr-radios-97468235354" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1055">
+                        CNNs require fewer training samples to achieve high performance.
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975493" name="question-77518975493" id="bsr-radios-97468235355" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1056">
+                        CNNs are more interpretable compared to other neural network architectures
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="radio">Which method is used for feature scaling in machine learning?</label>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975494" name="question-77518975494" id="bsr-radios-97468235356" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1057">
+                        Principal Component Analysis (PCA)
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975494" name="question-77518975494" id="bsr-radios-97468235357" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1058">
+                        Min-max scaling
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975494" name="question-77518975494" id="bsr-radios-97468235358" data-alert-type="alert-danger" data-comment="<strong>Incorrect</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1059">
+                        Z-score normalization
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" data-question-number="77518975494" name="question-77518975494" id="bsr-radios-97468235359" data-alert-type="alert-success" data-comment="<strong>Correct</strong><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit." value="radio1060">
+                        One-hot encoding
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <div class="multiple-choice-alert alert hidden" id="87518975480" role="alert"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

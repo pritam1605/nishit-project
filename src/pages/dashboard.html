@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #left-half-bg::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background-color: #f0f0f0; /* Set your desired background color here */
+      z-index: -1; /* Ensure the pseudo-element is behind the content */
+    }
+  </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6" id="left-half-bg" style="padding-top: 80px;">
+                <h2 style="padding-bottom: 10px;">User Dashboard</h2>
+                <p><b>Name: </b>{{user.name }}</p>
+                <p><b>Email: </b>{{user.email }}</p>
+                
+                <h2 style="padding-bottom: 10px; padding-top: 20px;">Quiz Scores</h2>
+                {% if ai_quiz_score %}
+                <p>AI Quiz Score: {{ ai_quiz_score.score }}</p>
+                {% else %}
+                <p>AI Quiz Score: Not attempted yet</p>
+                {% endif %}
+                {% if ml_quiz_score %}
+                <p>ML Quiz Score: {{ ml_quiz_score.score }}</p>
+                {% else %}
+                <p>ML Quiz Score: Not attempted yet</p>
+                {% endif %}
+                {% if ds_quiz_score %}
+                <p>DS Quiz Score: {{ ds_quiz_score.score }}</p>
+                {% else %}
+                <p>DS Quiz Score: Not attempted yet</p>
+                {% endif %}
+                {% if ba_quiz_score %}
+                <p>BA Quiz Score: {{ ba_quiz_score.score }}</p>
+                {% else %}
+                <p>BA Quiz Score: Not attempted yet</p>
+                {% endif %}
+                <br>
+                <br>
+                <a href="/logout" class="btn btn-warning">Logout</a>
+                <a href="/" class="btn btn-success">Home</a>
+            </div>
+            <div class="col-md-6" id="right-half-bg" style="padding-top: 80px; padding-left: 150px;">
+                <h2>Fill this form to get started!</h2>
+                <br>
+                <form id="myForm" action="#" method="post">
+                    <div class="form-group row">
+                      <label for="quizscore" class="col-sm-2 col-form-label" style="font-size: 14px; font-weight: bold;">Score</label>
+                      <div class="col-sm-10">
+                        <input type="inputquizscore" name="latest_score" class="form-control" id="quizscore" value="{{ score }}" readonly>
+                      </div>
+                    </div>
+                    
+                    <div class="form-group row">
+                      <label for="quiztype" class="col-sm-2 col-form-label">Domain</label>
+                      <div class="col-sm-10">
+                        <input type="inputquiztype" class="form-control" id="quiztype" value="{{ latest_quiz_type }}" readonly>
+                      </div>
+                    </div>
+                    
+                    <fieldset class="form-group">
+                      <div class="row">
+                        <legend class="col-form-label col-sm-2 pt-0" style="font-size: 14px; font-weight: bold;">Proficiency</legend>
+                        <div class="col-sm-10">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios1" value="option1a">
+                            <label class="form-check-label" for="gridRadios1">
+                              Beginner
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios2" value="option2a">
+                            <label class="form-check-label" for="gridRadios2">
+                              Intermediate
+                            </label>
+                          </div>
+                          <div class="form-check disabled">
+                            <input class="form-check-input" type="radio" name="gridRadios1" id="gridRadios3" value="option3a">
+                            <label class="form-check-label" for="gridRadios3">
+                              Advanced
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </fieldset>
+                    
+                    <fieldset class="form-group">
+                        <div class="row">
+                          <legend class="col-form-label col-sm-2 pt-0" style="font-size: 14px; font-weight: bolder;">Interested in Statistics?</legend>
+                          <div class="col-sm-10">
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios2" id="gridRadios4" value="option1b">
+                              <label class="form-check-label" for="gridRadios4">
+                                Yes
+                              </label>
+                            </div>
+                            <div class="form-check">
+                              <input class="form-check-input" type="radio" name="gridRadios2" id="gridRadios5" value="option2b">
+                              <label class="form-check-label" for="gridRadios5">
+                                No
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                    </fieldset>
+                    <div class="form-group row">
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+      document.getElementById("quizscore").value = "{{ score }}"
+    </script>
+</body>
+</html>
