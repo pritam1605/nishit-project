@@ -49,14 +49,3 @@ document.getElementById("quizForm").addEventListener("submit", function(event) {
     console.log(answers);
     // window.location.href = "index.html";
 });
-
-
-
-
-
-
-
-
-
-
-
